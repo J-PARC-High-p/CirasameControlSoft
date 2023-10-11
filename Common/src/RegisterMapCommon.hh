@@ -9,10 +9,16 @@ namespace CIRASAME{
 namespace C6C{
   enum LocalAddress
     {
-     kAddrTxd       = 0x10000000, // W,  [31:0] SPI TX data
-     kAddrRxd       = 0x10100000, // R,  [31:0] SPI RX data
-     kAddrExecWrite = 0x11000000, // W,
-     kAddrExecRead  = 0x12000000  // R,
+     // kAddrTxd       = 0x10000000, // W,  [31:0] SPI TX data
+     // kAddrRxd       = 0x10100000, // R,  [31:0] SPI RX data
+     // kAddrExecWrite = 0x11000000, // W,
+     // kAddrExecRead  = 0x12000000  // R,
+
+     kAddrTxd       = 0x60000000, // W,  [31:0] SPI TX data
+     kAddrRxd       = 0x60100000, // R,  [31:0] SPI RX data
+     kAddrExecWrite = 0x61000000, // W,
+     kAddrExecRead  = 0x62000000  // R,
+
     };
 };
 
@@ -29,10 +35,16 @@ namespace MIG{
 namespace BIAS{
   enum LocalAddress
     {
-     kAddrTxd       = 0x40000000, // W,  [7:0] SPI TX data
-     kAddrRxd       = 0x40100000, // R,  [7:0] SPI RX data
-     kAddrExecWrite = 0x41000000, // W,
-     kAddrExecRead  = 0x42000000  // R,
+     // kAddrTxd       = 0x40000000, // W,  [7:0] SPI TX data
+     // kAddrRxd       = 0x40100000, // R,  [7:0] SPI RX data
+     // kAddrExecWrite = 0x41000000, // W,
+     // kAddrExecRead  = 0x42000000  // R,
+
+     kAddrTxd       = 0x50000000, // W,  [7:0] SPI TX data
+     kAddrRxd       = 0x50100000, // R,  [7:0] SPI RX data
+     kAddrExecWrite = 0x51000000, // W,
+     kAddrExecRead  = 0x52000000  // R,
+     
     };
 };
 

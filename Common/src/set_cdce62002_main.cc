@@ -97,7 +97,7 @@ namespace CDCE62002{
   };
 #endif
 
-#if 0
+#if 1
   // ----------------------------------------------------------
   // Input freq: 125 MHz
   // Output freq
@@ -160,7 +160,7 @@ namespace CDCE62002{
   };
 #endif
 
-#if 1
+#if 0
   // ----------------------------------------------------------
   // Input freq: 125 MHz
   // Output freq
